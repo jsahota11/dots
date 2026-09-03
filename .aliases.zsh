@@ -6,7 +6,6 @@ alias eaf='nvim ~/.aliases.zsh'
 # Config files
 alias zshcf="nvim ~/.zshrc"
 alias tmuxcf="nvim ~/.tmux.conf"
-alias kittycf="nvim ~/.config/kitty/kitty.conf"
 
 # Not enough for a category
 alias ssha="ssh sahotaj2@aviary.cs.umanitoba.ca"
