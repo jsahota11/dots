@@ -61,6 +61,12 @@ vim.lsp.config("astro", {
     },
 })
 
+vim.lsp.config("texlab", {
+    cmd = { "texlab" },
+    filetypes = { "tex", "bib" },
+    root_markers = { ".git" },
+})
+
 vim.lsp.enable({
     "lua_ls",
     "clangd",
@@ -68,5 +74,6 @@ vim.lsp.enable({
     "astro",
     "html",
     "cssls",
-    "jsonls"
+    "jsonls",
+    "texlab"
 })
