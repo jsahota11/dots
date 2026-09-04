@@ -21,8 +21,8 @@ alias ~='z ~'
 alias md='mkdir -p'
 alias rd='rmdir -p'
 
-alias l='ls -a'
-alias ll='ls -al'
+alias l='ls -aG'
+alias ll='ls -alG'
 
 ## not aliases but close enough
 
